@@ -401,7 +401,7 @@ if __name__ == '__main__':
 
     sxm = SiriusXM(args['username'], args['password'])
     if args['list']:
-        channels = list(sorted(sxm.get_channels(), key=lambda x: (not x.get('isFavorite', False), int(x.get('siriusChannelNumber', 9999)))))
+        channels = list(sorted(sxm.get_channels(), key=lambda x: (not x.get('isFavorite', False), int(x.get('siriusChannelNumber') if str(x.get('siriusChannelNumber')).isdigit() else 9999))))
 
         if not channels:
             print("No channels found. Verify credentials.")
