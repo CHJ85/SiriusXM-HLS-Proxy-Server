@@ -19,4 +19,4 @@ Pass the channel's channelId or name with a .m3u8 extension to your media player
 - Automatically refreshes authentication tokens (SXMAKTOKEN) when sessions expire.
 
 # Disclaimer
-This project is intended strictly for personal use and educational purposes. SiriusXM is a registered trademark of Sirius XM Holdings Inc.
+This project is intended strictly for personal use and educational purposes.
