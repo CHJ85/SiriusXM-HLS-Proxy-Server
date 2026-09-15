@@ -1,5 +1,5 @@
 # SiriusXM HLS Proxy Server
-A lightweight CLI tool and local HTTP proxy for streaming live SiriusXM radio stations and event streams (`.m3u8` / `.aac`), with channel listing support. Includes the Extra / app-only content.
+A lightweight CLI tool and local HTTP proxy for streaming live SiriusXM radio stations and event streams, with channel listing support. Includes the Extra / app-only content.
 
 # Requirements
 pip install requests
