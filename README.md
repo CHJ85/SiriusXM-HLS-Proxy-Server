@@ -1,5 +1,5 @@
 # SiriusXM HLS Proxy Server
-A Python HTTP proxy that authenticates with your SiriusXM account and serves station streams as standard .m3u8 playlists. Useful for playing live channels in media players like mpv or VLC without keeping a browser open.
+A Python HTTP proxy that authenticates with your SiriusXM account and serves radio station streams as standard .m3u8 playlists. Useful for playing live channels in media players like mpv or VLC without keeping a browser open.
 
 # Requirements
 pip install requests
