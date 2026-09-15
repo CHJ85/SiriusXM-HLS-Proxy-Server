@@ -5,12 +5,12 @@ A Python HTTP proxy that authenticates with your SiriusXM account and serves sta
 pip install requests
 
 # Usage
-- List available channel IDs
-  python sxm.py "user@example.com" "password" -l
-- Start the proxy server
-  python sxm.py "user@example.com" "password" -p 9999
-- Stream a channel
-  Pass the channel's channelId or name with a .m3u8 extension to your media player. (example mpv http://localhost:9999/classicrewind.m3u8)
+- List available channel IDs  
+python sxm.py "user@example.com" "password" -l
+- Start the proxy server  
+python sxm.py "user@example.com" "password" -p 9999
+- Stream a channel  
+Pass the channel's channelId or name with a .m3u8 extension to your media player. (example mpv http://localhost:9999/classicrewind.m3u8)
 
 # How it works
 - Fetches native Akamai HLS (.m3u8) stream URLs directly from SiriusXM's Web Player API.
